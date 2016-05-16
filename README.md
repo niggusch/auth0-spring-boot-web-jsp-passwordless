@@ -21,7 +21,7 @@ Check that your maven version is 3.0.x or above:
 mvn -v
 ```
 
-This project relies upon `Spring Boot`.
+This project relies upon [Spring Boot](http://projects.spring.io/spring-boot/).
 
 
 Benefits of Spring Boot, in particular for traditional server-side web application / microservices architectures:
