@@ -74,6 +74,9 @@ Both of these connection types NEED to be associated with the application you ha
 
 Next, enable MFA - Multi-Factor Authentication, and configure with the following - supplying your own values:
 
+Here we illustrate Duo Security, but this could be any `MFA` including `Google Authenticator` and our Auth0 `Guardian` solution.
+
+
 ```
 function (user, context, callback) {
   var CLIENTS_WITH_MFA = ['{YOUR_CLIENT_ID}'];
@@ -188,39 +191,17 @@ Alternatively, you could roll your own and use `auth0.js`
 
 ![](img/7.mail.jpg)
 
-#### 8. MFA with Duo
 
-![](img/8.mfa.jpg)
+At this point, depending on which underlying Multi-factor Authentication provider you have configured for use, you would
+go through the registration process for that provider, and once complete return to the application home page, as shown
+in the next screenshot.
 
-#### 9. MFA with Duo
 
-![](img/9.mfa.jpg)
-
-#### 10. MFA with Duo
-
-![](img/10.mfa.jpg)
-
-#### 11. MFA with Duo
-
-![](img/11.mfa.jpg)
-
-#### 12. MFA with Duo
-
-![](img/12.mfa.jpg)
-
-#### 13. MFA with Duo
-
-![](img/13.mfa.jpg)
-
-#### 14. MFA with Duo
-
-![](img/14.mfa.jpg)
-
-#### 15. Home
+#### 8. Home
 
 ![](img/15.home.jpg)
 
-#### 16. User Profile upon completion
+#### 9. User Profile upon completion
 
 ![](img/user_info.jpg)
 
