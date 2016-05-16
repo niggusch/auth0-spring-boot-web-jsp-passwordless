@@ -102,10 +102,6 @@ function (user, context, callback) {
 
 You will have to set up a (free) account with Duo Security, to obtain the integration key, secret key, and api hostname.
 
-Screenshot below of how this looks:
-
-![](img/duo_app.jpg)
-
 That's it for the Dashboard setup!
 
 
